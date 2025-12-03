@@ -1,0 +1,39 @@
+======================================================================
+FISHEYE CAMERA CALIBRATION REPORT
+======================================================================
+
+IMAGE INFORMATION:
+  Resolution: 3848 x 2168 pixels
+  Number of calibration images: 50
+
+CAMERA INTRINSIC MATRIX (K):
+  fx = 1878.2800 pixels
+  fy = 1879.5601 pixels
+  cx = 1881.3142 pixels
+  cy = 1038.1462 pixels
+
+  Full matrix:
+    [ 1878.280047     0.000000  1881.314191]
+    [    0.000000  1879.560142  1038.146229]
+    [    0.000000     0.000000     1.000000]
+
+DISTORTION COEFFICIENTS (fisheye model):
+  k1 = -0.02308496
+  k2 = -0.00501511
+  k3 = 0.01566360
+  k4 = -0.00938293
+
+CALIBRATION QUALITY:
+  Mean reprojection error: 0.2524 pixels
+  Min error: 0.0898 pixels
+  Max error: 1.0737 pixels
+  Std deviation: 0.2112 pixels
+
+  Overall quality: EXCELLENT
+
+FIELD OF VIEW ESTIMATES:
+  Horizontal FOV: ~91.4°
+  Vertical FOV: ~59.9°
+  Diagonal FOV: ~99.2°
+
+======================================================================

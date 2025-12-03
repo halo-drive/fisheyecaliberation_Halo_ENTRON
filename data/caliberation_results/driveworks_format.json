@@ -1,0 +1,22 @@
+{
+  "model": "ftheta",
+  "image-size": [
+    3848,
+    2168
+  ],
+  "focalLengthPixel": [
+    1878.2800470396667,
+    1879.5601422405318
+  ],
+  "principalPoint": [
+    1881.31419131152,
+    1038.1462286017434
+  ],
+  "distortion": {
+    "k1": -0.02308495561994163,
+    "k2": -0.005015110483243928,
+    "k3": 0.01566360127673815,
+    "k4": -0.009382933922891567
+  },
+  "note": "Converted from OpenCV fisheye calibration. May need refinement in DriveWorks."
+}

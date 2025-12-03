@@ -27,10 +27,10 @@ def main():
     SQUARE_SIZE_MM = 75.0
     
     # Detection parameters
-    BLUR_THRESHOLD = 100.0  # Reject blurry frames
-    MIN_AREA_RATIO = 0.05   # Minimum checkerboard area
+    BLUR_THRESHOLD = 50.0  # Reject blurry frames
+    MIN_AREA_RATIO = 0.02   # Minimum checkerboard area
     MAX_AREA_RATIO = 0.8    # Maximum checkerboard area
-    SKIP_FRAMES = 10        # Process every Nth frame to speed up
+    SKIP_FRAMES = 5        # Process every Nth frame to speed up
     
     print("=" * 70)
     print("FRAME EXTRACTION FROM CALIBRATION VIDEO")

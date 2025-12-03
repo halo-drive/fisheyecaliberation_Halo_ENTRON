@@ -157,10 +157,10 @@ def save_calibration_report(K: np.ndarray, D: np.ndarray,
     report.append("")
     
     report.append("DISTORTION COEFFICIENTS (fisheye model):")
-    report.append(f"  k1 = {D[0]:.8f}")
-    report.append(f"  k2 = {D[1]:.8f}")
-    report.append(f"  k3 = {D[2]:.8f}")
-    report.append(f"  k4 = {D[3]:.8f}")
+    report.append(f"  k1 = {D[0, 0]:.8f}")
+    report.append(f"  k2 = {D[1, 0]:.8f}")
+    report.append(f"  k3 = {D[2, 0]:.8f}")
+    report.append(f"  k4 = {D[3, 0]:.8f}")
     report.append("")
     
     report.append("CALIBRATION QUALITY:")

@@ -83,7 +83,7 @@ class CheckerboardDetector:
     
     def get_object_points(self) -> np.ndarray:
         """Get the 3D object points for this checkerboard."""
-        return self.objp.copy()
+        return self.objp.reshape(-1, 1, 3)
 
 
 def compute_reprojection_error(objpoints: List[np.ndarray],
