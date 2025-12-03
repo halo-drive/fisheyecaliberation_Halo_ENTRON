@@ -10,3 +10,4 @@ __pycache__/
 
 #video files 
 *.mp4
+calibenv/
