@@ -1,0 +1,12 @@
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python .pth files
+*.pth
+*.pt
+
+#video files 
+*.mp4
